@@ -18,6 +18,8 @@ class Main extends React.Component {
           <span className="image main"><img src={pic01} alt="" /></span>
           <h3>Name:</h3>
           <p>Osmium</p>
+          <h3>Periodic Square:</h3>
+          <img src="https://i.imgur.com/UPxmcjj.jpg" alt="Periodic Table">
           {close}
         </article>
 
