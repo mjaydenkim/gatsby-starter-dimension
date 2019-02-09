@@ -19,7 +19,7 @@ class Main extends React.Component {
           <h3>Name:</h3>
           <p>Osmium</p>
           <h3>Periodic Square:</h3>
-          <img src="https://i.imgur.com/UPxmcjj.jpg" alt="Periodic Table">
+          <img src="https://i.imgur.com/UPxmcjj.jpg" alt="Periodic Table"/>
           {close}
         </article>
 
