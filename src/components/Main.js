@@ -24,7 +24,7 @@ class Main extends React.Component {
           <h3> Who discovered it, when, and how? </h3>
           <p> It was discovered by Smithson Tennant in 1803. </p>
           <p> According to Chemicool, "Tennant’s discovery of osmium began when he dissolved a sample of crude platinum in aqua regia, a mixture of hydrochloric acid and nitric acid, resulting in a metallic, black powder.Previous chemists had believed this powder was graphite, but Tennant – who had previous experience of working with carbon’s allotropes – thought differently. (3)Tennant treated the powder with sodium hydroxide and heated to the solution. He removed an alkali from the residue by adding water. He added hydrochloric acid to the remaining residue to form an acidic solution. The alkaline solution was found to contain osmium, while the acidic contained iridium." </p>
-          <h3> What form is it most commonly foudn in and is it rare or common? </h3>
+          <h3> What form is it most commonly found in and is it rare or common? </h3>
           <p> It is the rarest of all stable elements in Earth's crust, with 50 parts per trillion in the continental crust. </p>
           <p> Osmium alloys are found many places in the world- see "Interesting Facts, Values and Uses." </p>
           <p> Osmium is also found naturally alloyed with nickel and copper. </p>
@@ -32,11 +32,10 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Work</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+        <article id="physical" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Physical Properties</h2>
+          <h3> What are the Physical Properties of Osmium?</h3>
+          <p>Osmium is blueish-white in color. It is also shiny. The melting point of Osmium is 3033°C (or 5941°F), and the boiling point of Osmium is 5027°C (or 9080°F). The density of Osmium is 22.5g per cubic centimeter. These numbers are the highest of the platinum-group metals, and among the highest of all elements. It is also different from other metals in that it cannot be melted or shaped like other metals, and it is unworkable.</p>
           {close}
         </article>
 
