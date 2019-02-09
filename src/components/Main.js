@@ -20,6 +20,8 @@ class Main extends React.Component {
           <p>Osmium</p>
           <p>Periodic Square:</p>
           <img src="https://i.imgur.com/UPxmcjj.jpg" alt="Periodic Table"/>
+          <h3>What family is it in?</h3>
+          <p> the Platinum Family </p>
           {close}
         </article>
 
