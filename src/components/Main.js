@@ -18,10 +18,13 @@ class Main extends React.Component {
           <span className="image main"><img src={pic01} alt="" /></span>
           <h3>Name:</h3>
           <p>Osmium</p>
-          <p>Periodic Square:</p>
+          <h3>Periodic Square:</h3>
           <img src="https://i.imgur.com/UPxmcjj.jpg" alt="Periodic Table"/>
           <h3>What family is it in?</h3>
           <p> the Platinum Family </p>
+          <h3> Who discovered it, when, and how? </h3>
+          <p> It was discovered by Smithson Tennant in 1803. </p>
+          <p> According to Chemicool, "Tennant’s discovery of osmium began when he dissolved a sample of crude platinum in aqua regia, a mixture of hydrochloric acid and nitric acid, resulting in a metallic, black powder.Previous chemists had believed this powder was graphite, but Tennant – who had previous experience of working with carbon’s allotropes – thought differently. (3)Tennant treated the powder with sodium hydroxide and heated to the solution. He removed an alkali from the residue by adding water. He added hydrochloric acid to the remaining residue to form an acidic solution. The alkaline solution was found to contain osmium, while the acidic contained iridium." </p>
           {close}
         </article>
 
