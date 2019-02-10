@@ -28,7 +28,6 @@ class Main extends React.Component {
           <p> It is the rarest of all stable elements in Earth's crust, with 50 parts per trillion in the continental crust. </p>
           <p> Osmium alloys are found many places in the world- see "Interesting Facts, Values and Uses." </p>
           <p> Osmium is also found naturally alloyed with nickel and copper. </p>
-          
           {close}
         </article>
 
@@ -39,10 +38,10 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">About</h2>
-          <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+        <article id="chemical" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Chemical Properties</h2>
+          <h3> What are the chemical properties of Osmium? </h3>
+          <p>Osmium can be dissolved by acids or by aqua regia (which is a mixture of nitric acid and hydrochloric acid) after long periods of exposure. After it is heated and combined with oxygen, it forms Osmium Tetroxide, which is often used in the chemical industry (OsO4). Osmium Tetroxide has many uses but is toxic.</p>
           {close}
         </article>
 
